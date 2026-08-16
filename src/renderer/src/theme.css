@@ -1,0 +1,8 @@
+html[data-theme='light'],html[data-theme='light'] body{color:#28251f;background:#f7f4ee}
+html[data-theme='light'] .sidebar,html[data-theme='light'] .panel,html[data-theme='light'] .dialog-content{color:#28251f;background:#fffcf8;border-color:#ebe4d9}
+html[data-theme='light'] main{background:#f7f4ee}
+html[data-theme='light'] .form-grid input,html[data-theme='light'] .form-grid select,html[data-theme='light'] .setting-row select,html[data-theme='light'] .data-actions button,html[data-theme='light'] .filters select,html[data-theme='light'] .filters input,html[data-theme='light'] .stats-toolbar select,html[data-theme='light'] .search-box{color:#443f38;background:#fff;border-color:#e3dbcf}
+html[data-theme='dark'],html[data-theme='dark'] body{color:#eee9e0;background:#1d211e}
+html[data-theme='dark'] .sidebar,html[data-theme='dark'] .panel,html[data-theme='dark'] .dialog-content{color:#eee9e0;background:#242925;border-color:#353b36}
+html[data-theme='dark'] main{background:#1d211e}
+html[data-theme='dark'] .form-grid input,html[data-theme='dark'] .form-grid select,html[data-theme='dark'] .setting-row select,html[data-theme='dark'] .data-actions button,html[data-theme='dark'] .filters select,html[data-theme='dark'] .filters input,html[data-theme='dark'] .stats-toolbar select,html[data-theme='dark'] .search-box{color:#eee9e0;background:#292e2a;border-color:#424942}

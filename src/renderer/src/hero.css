@@ -1,0 +1,21 @@
+.horse-art {
+  width: 132px;
+  height: 132px;
+  flex: 0 0 132px;
+  border-radius: 50%;
+  background-image: url('./assets/hero-duck.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 0;
+  transform: none;
+  overflow: hidden;
+  box-shadow: 0 10px 26px #152d2138;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .horse-art {
+    background-image: url('./assets/hero-duck.gif');
+  }
+}
