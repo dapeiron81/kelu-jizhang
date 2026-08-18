@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git 安全存档"
+  short_description: "核验单元测试与质量凭证后安全创建可噜记账 Git 存档"
+  default_prompt: "Use $git-save to prepare and confirm a verified Git commit for 可噜记账."

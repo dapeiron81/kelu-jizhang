@@ -1,0 +1,4 @@
+interface:
+  display_name: "可噜记账安全审计"
+  short_description: "检查敏感信息、注入漏洞、配置泄露和其他代码安全风险"
+  default_prompt: "使用 $security-audit 审查可噜记账的代码安全风险，并给出脱敏中文报告。"

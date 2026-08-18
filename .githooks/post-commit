@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# 提交已经成功写入历史后，删除本轮临时快照和凭证；不会改变代码或暂存区。
+REPO_ROOT="$(git rev-parse --show-toplevel)" || exit 0
+node "$REPO_ROOT/scripts/git-gate.mjs" finish >/dev/null 2>&1 || true
+exit 0

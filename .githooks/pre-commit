@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Git Hook 只核验本次代码对应的两张检查凭证，不在提交过程中临时启动 AI。
+REPO_ROOT="$(git rev-parse --show-toplevel)" || exit 1
+exec node "$REPO_ROOT/scripts/git-gate.mjs" verify

@@ -1,0 +1,4 @@
+interface:
+  display_name: "可噜记账单元测试"
+  short_description: "专为可噜记账创建并执行可靠测试，输出通俗中文测试报告"
+  default_prompt: "使用 $test-kelu-ledger 为本次代码改动创建并执行测试，然后给出中文测试报告。"

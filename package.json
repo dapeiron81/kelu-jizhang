@@ -9,6 +9,7 @@
     "build": "electron-vite build",
     "preview": "electron-vite preview",
     "test": "vitest run",
+    "test:git-gate": "node --test scripts/git-gate.node-test.mjs",
     "typecheck": "tsc --noEmit",
     "dist:win": "npm run build && electron-builder --win"
   },

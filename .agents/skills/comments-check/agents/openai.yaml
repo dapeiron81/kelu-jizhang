@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码注释检查"
+  short_description: "面向可噜记账检查代码注释覆盖率、准确性和小白阅读友好程度"
+  default_prompt: "使用 $comments-check 检查当前代码的注释，并给出通俗中文报告。"

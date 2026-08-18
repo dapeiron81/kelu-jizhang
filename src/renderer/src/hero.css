@@ -1,3 +1,7 @@
+/*
+ * 首页主卡片右侧的圆形动画容器。
+ * 固定宽高防止 GIF 加载前后挤动金额文字；cover 会裁掉方形图片四角。
+ */
 .horse-art {
   width: 132px;
   height: 132px;
@@ -7,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* 原马字符保留为后备内容，GIF 正常显示时把字符视觉隐藏。 */
   color: transparent;
   font-size: 0;
   transform: none;
@@ -14,6 +19,10 @@
   box-shadow: 0 10px 26px #152d2138;
 }
 
+/*
+ * 当前减少动画模式仍使用同一 GIF，并不会真正停止。
+ * 这条说明防止维护者误以为无障碍要求已经满足；后续需要另备静态图片。
+ */
 @media (prefers-reduced-motion: reduce) {
   .horse-art {
     background-image: url('./assets/hero-duck.gif');

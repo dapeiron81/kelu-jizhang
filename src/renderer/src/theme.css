@@ -1,7 +1,9 @@
+/* 用户明确选择浅色时，以 data-theme 覆盖操作系统的深色偏好。 */
 html[data-theme='light'],html[data-theme='light'] body{color:#28251f;background:#f7f4ee}
 html[data-theme='light'] .sidebar,html[data-theme='light'] .panel,html[data-theme='light'] .dialog-content{color:#28251f;background:#fffcf8;border-color:#ebe4d9}
 html[data-theme='light'] main{background:#f7f4ee}
 html[data-theme='light'] .form-grid input,html[data-theme='light'] .form-grid select,html[data-theme='light'] .setting-row select,html[data-theme='light'] .data-actions button,html[data-theme='light'] .filters select,html[data-theme='light'] .filters input,html[data-theme='light'] .stats-toolbar select,html[data-theme='light'] .search-box{color:#443f38;background:#fff;border-color:#e3dbcf}
+/* 用户明确选择深色时，统一调整页面、卡片和输入控件，避免局部仍保持刺眼白底。 */
 html[data-theme='dark'],html[data-theme='dark'] body{color:#eee9e0;background:#1d211e}
 html[data-theme='dark'] .sidebar,html[data-theme='dark'] .panel,html[data-theme='dark'] .dialog-content{color:#eee9e0;background:#242925;border-color:#353b36}
 html[data-theme='dark'] main{background:#1d211e}
